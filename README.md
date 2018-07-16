@@ -2,7 +2,7 @@
 
 **NYTimesArticleSearch** is an android app that allows a user to search for articles on web using simple filters. The app utilizes [New York Times Search API](http://developer.nytimes.com/docs/read/article_search_api_v2).
 
-Time spent: **X** hours spent in total
+Time spent: **100** hours spent in total
 
 ## User Stories
 
@@ -44,15 +44,15 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+Here's a NYTimes Search of implemented user stories(https://imgur.com/a/MIqT7mJ):
+
+GIF created with [VideoToGif](https://play.google.com/store/apps/details?id=com.kayak.studio.gifmaker)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was fun.
 
 ## Open-source libraries used
 
@@ -61,7 +61,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Quince Joz-Bruer]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
