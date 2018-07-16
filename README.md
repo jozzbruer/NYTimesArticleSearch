@@ -1,4 +1,5 @@
 # Project 2 - *NYTimesArticleSearch*
+# Quince Joz-Bruer
 
 **NYTimesArticleSearch** is an android app that allows a user to search for articles on web using simple filters. The app utilizes [New York Times Search API](http://developer.nytimes.com/docs/read/article_search_api_v2).
 
@@ -46,7 +47,7 @@ The following **additional** features are implemented:
 
 
 
-Here's a NYTimes Search of implemented user stories(https://imgur.com/a/MIqT7mJ):
+Here's a NYTimes Search of implemented user stories(https://imgur.com/a/HsMW0pM):
 
 GIF created with [VideoToGif](https://play.google.com/store/apps/details?id=com.kayak.studio.gifmaker)
 
