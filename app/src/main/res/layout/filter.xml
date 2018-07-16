@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox2"
+        android:layout_toStartOf="@+id/checkBox2"
+        android:text="@string/arts"
+        android:layout_toLeftOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_toStartOf="@+id/checkBox"
+        android:text="@string/sports"
+        android:layout_toLeftOf="@+id/checkBox" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="186dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="85dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText"
+        android:text="Begin Date"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tvSortBy"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_marginStart="12dp"
+        android:text="Sort By"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="132dp"
+        android:entries="@array/deskvalue"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:text="@string/new_desk_value" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="241dp"
+        android:text="@string/check"
+        android:layout_alignRight="@+id/editText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="94dp"
+        android:text="@string/save"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
